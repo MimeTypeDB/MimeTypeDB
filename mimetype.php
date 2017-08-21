@@ -89,7 +89,7 @@ function getMimeTypeByFileExtension( $filename )
         return $mimeTypes[ $fileExt ];
     }
 
-    return 'application/octect-stream';
+    return 'application/octet-stream';
 }
 
 /**
